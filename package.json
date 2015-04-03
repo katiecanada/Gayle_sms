@@ -1,13 +1,16 @@
 {
   "name": "gayle-sms",
-  "version": "0.1.2",
-  "description": "A sample Node.js app using Express 4",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "sms testing for informal care research",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "dependencies": {
-    "express": "~4.9.x"
+    "express": "3.x",
+    "express3-handlebars":"*",
+    "twilio":"*",
+    "mongodb":"*",
+    "mongoose":"*"
   },
   "engines": {
     "node": "0.10.x"
@@ -16,10 +19,5 @@
     "type": "git",
     "url": "https://github.com/katiecanada/Gayle_sms"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
   "license": "MIT"
 }
